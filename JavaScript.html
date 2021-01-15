@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	
+	<head>
+	
+		<meta charset="utf-8">
+		<title>My First JavaScript</title>
+		
+		<link href ="JavaStyle.css" rel="stylesheet"/>
+		
+	</head>
+	
+	<body>
+		
+		<div id = "container">
+			<header>
+				99 bottles of Water
+			</header>
+		
+			<script src="code.js">
+
+			</script>
+		
+			<script>
+				var word = "bottles";
+		
+				var count = 99;
+		
+					while (count > 0) {
+			
+						document.write(count + " " + word + " of water on the wall,<br>");
+			
+						document.write(count + " " + word + " of water,<br>");
+			
+						document.write("Take one down, pass it around,<br>");
+			
+						count = count - 1;
+			
+						if (count > 0) {
+				
+							document.write(count + " " + word + " of water on the wall.<br>");
+						} else {
+				
+							document.write("No more " + word + " of water on the wall.<br>");
+				
+						}
+					}
+			</script>
+		
+			<footer>
+		
+			</footer>
+		</div>
+		
+	</body>
+	
+</html>
+
